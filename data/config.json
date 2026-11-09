@@ -1,0 +1,65 @@
+{
+    "theme": "dark",
+    "farm": {
+        "punch_interval": 0.5,
+        "put_interval": 0.8,
+        "cycle_delay": 1.0,
+        "minimum_interval": 0.1,
+        "character_position": [
+            960,
+            540
+        ],
+        "target_position": [
+            1000,
+            540
+        ],
+        "put_position": [
+            920,
+            540
+        ],
+        "auto_punch": {
+            "x": 500,
+            "y": 300,
+            "interval": 0.5,
+            "max_duration": 5.0,
+            "max_actions": 5
+        },
+        "auto_put": {
+            "positions": [
+                [
+                    500,
+                    300
+                ],
+                [
+                    550,
+                    300
+                ],
+                [
+                    600,
+                    300
+                ]
+            ],
+            "interval": 0.5,
+            "button": "left",
+            "max_duration": 5.0,
+            "max_actions": 10
+        },
+        "cycles": 2
+    },
+    "vision": {
+        "confidence_threshold": 0.85,
+        "capture_region": null,
+        "game_template": "",
+        "monitor_index": 1,
+        "threshold": 0.9,
+        "connected_template": "assets/templates/connected.png",
+        "disconnected_template": "assets/templates/disconnected.png"
+    },
+    "reconnect": {
+        "enabled": true,
+        "template": "",
+        "retry_notification_seconds": 30,
+        "interval": 5.0,
+        "confirm_count": 3
+    }
+}
