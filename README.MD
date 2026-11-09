@@ -99,10 +99,8 @@ Sebelum menjalankan aplikasi, pastikan perangkat telah memiliki:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/Growtopia-AutoFarm.git
+git clone https://github.com/Entongg/Growtopia-AutoFarm.git
 ```
-
-Ganti `USERNAME` dengan username GitHub pemilik repository.
 
 ### 2. Masuk ke Folder Project
 
